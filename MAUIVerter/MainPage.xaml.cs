@@ -1,4 +1,6 @@
-﻿namespace MAUIVerter;
+﻿using MAUIVerter.Views;
+
+namespace MAUIVerter;
 
 public partial class MainPage : ContentPage
 {
@@ -9,64 +11,46 @@ public partial class MainPage : ContentPage
 
     private async void OnInformationTapped(object sender, EventArgs e)
     {
-        // Navigate to Information category page
-        // await Navigation.PushAsync(new CategoryPage("Information", "information"));
-        await DisplayAlert("Information", "Information converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Information", "information"));
     }
 
     private async void OnVolumeTapped(object sender, EventArgs e)
     {
-        // Navigate to Volume category page
-        // await Navigation.PushAsync(new CategoryPage("Volume", "volume"));
-        await DisplayAlert("Volume", "Volume converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Volume", "volume"));
     }
 
     private async void OnLengthTapped(object sender, EventArgs e)
     {
-        // Navigate to Length category page
-        // await Navigation.PushAsync(new CategoryPage("Length", "length"));
-        await DisplayAlert("Length", "Length converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Length", "length"));
     }
 
     private async void OnMassTapped(object sender, EventArgs e)
     {
-        // Navigate to Mass category page
-        // await Navigation.PushAsync(new CategoryPage("Mass", "mass"));
-        await DisplayAlert("Mass", "Mass converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Mass", "mass"));
     }
 
     private async void OnTemperatureTapped(object sender, EventArgs e)
     {
-        // Navigate to Temperature category page
-        // await Navigation.PushAsync(new CategoryPage("Temperature", "temperature"));
-        await DisplayAlert("Temperature", "Temperature converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Temperature", "temperature"));
     }
 
     private async void OnEnergyTapped(object sender, EventArgs e)
     {
-        // Navigate to Energy category page
-        // await Navigation.PushAsync(new CategoryPage("Energy", "energy"));
-        await DisplayAlert("Energy", "Energy converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Energy", "energy"));
     }
 
     private async void OnAreaTapped(object sender, EventArgs e)
     {
-        // Navigate to Area category page
-        // await Navigation.PushAsync(new CategoryPage("Area", "area"));
-        await DisplayAlert("Area", "Area converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Area", "area"));
     }
 
     private async void OnSpeedTapped(object sender, EventArgs e)
     {
-        // Navigate to Speed category page
-        // await Navigation.PushAsync(new CategoryPage("Speed", "speed"));
-        await DisplayAlert("Speed", "Speed converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Speed", "speed"));
     }
 
     private async void OnDurationTapped(object sender, EventArgs e)
     {
-        // Navigate to Duration category page
-        // await Navigation.PushAsync(new CategoryPage("Duration", "duration"));
-        await DisplayAlert("Duration", "Duration converter clicked", "OK");
+        await Navigation.PushAsync(new ConverterPage("Duration", "duration"));
     }
 }
