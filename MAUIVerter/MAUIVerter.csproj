@@ -57,9 +57,32 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Lilitaone.ttf" />
+	  <None Remove="Resources\Images\area.png" />
+	  <None Remove="Resources\Images\duration.png" />
+	  <None Remove="Resources\Images\energy.png" />
+	  <None Remove="Resources\Images\firstbackground.png" />
+	  <None Remove="Resources\Images\fixedbg.png" />
+	  <None Remove="Resources\Images\informations.png" />
+	  <None Remove="Resources\Images\length.png" />
+	  <None Remove="Resources\Images\mass.png" />
+	  <None Remove="Resources\Images\mauivertertext.png" />
+	  <None Remove="Resources\Images\speed.png" />
+	  <None Remove="Resources\Images\startbutton.png" />
+	  <None Remove="Resources\Images\temperature.png" />
+	  <None Remove="Resources\Images\volume.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="FirstPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

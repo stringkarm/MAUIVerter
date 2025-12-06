@@ -13,6 +13,7 @@ namespace MAUIVerter
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Lilitaone.ttf", "Lilitaone");
                 });
 
 #if DEBUG
