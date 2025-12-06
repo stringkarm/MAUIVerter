@@ -12,14 +12,15 @@
                VerticalOptions="FillAndExpand"
                HorizontalOptions="FillAndExpand"/>
 
-        <ScrollView Grid.Row="1" Margin="20,-70">
-            <VerticalStackLayout Spacing="12" Padding="0">
+        <ScrollView Grid.Row="1" Margin="30,-60">
+            <VerticalStackLayout Spacing="12" Padding="0, 0, 0, 90">
 
                 <!-- Information Category -->
                 <Frame BackgroundColor="#5BA3D0" 
                        CornerRadius="25" 
                        Padding="0" 
-                      HasShadow="True">
+                       BorderColor="Transparent"
+                       HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnInformationTapped"/>
                     </Frame.GestureRecognizers>
@@ -51,6 +52,7 @@
                 <Frame BackgroundColor="#7EB5D6" 
                        CornerRadius="25" 
                        Padding="0" 
+                       BorderColor="Transparent" 
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnVolumeTapped"/>
@@ -61,12 +63,13 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Volume" 
-                                   FontSize="28" 
+                                   FontSize="20" 
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"
                                    HorizontalTextAlignment="End"/>
                             <Label Text="Convert liquid and cubic capacity measurements across different systems" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"
                                    HorizontalTextAlignment="End"/>
@@ -84,6 +87,7 @@
                 <Frame BackgroundColor="#5BA3D0" 
                        CornerRadius="25" 
                        Padding="0" 
+                       BorderColor="Transparent" 
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnLengthTapped"/>
@@ -100,11 +104,12 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Length" 
-                                   FontSize="28" 
+                                   FontSize="20" 
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"/>
                             <Label Text="Convert distances and measurements between metric and imperial units" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"/>
                         </VerticalStackLayout>
@@ -115,6 +120,7 @@
                 <Frame BackgroundColor="#7EB5D6" 
                        CornerRadius="25" 
                        Padding="0" 
+                       BorderColor="Transparent"
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnMassTapped"/>
@@ -125,12 +131,13 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Mass" 
-                                   FontSize="28" 
+                                   FontSize="20" 
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"
                                    HorizontalTextAlignment="End"/>
                             <Label Text="Convert weight measurements from grams to pounds and tons" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"
                                    HorizontalTextAlignment="End"/>
@@ -145,9 +152,10 @@
                 </Frame>
 
                 <!-- Temperature Category -->
-                <Frame BackgroundColor="#9B7FBF" 
+                <Frame BackgroundColor="#5BA3D0" 
                        CornerRadius="25" 
                        Padding="0" 
+                        BorderColor="Transparent"
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnTemperatureTapped"/>
@@ -164,11 +172,12 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Temperature" 
-                                   FontSize="28" 
+                                   FontFamily="Lilitaone"
+                                   FontSize="20" 
                                    FontAttributes="Bold" 
                                    TextColor="White"/>
                             <Label Text="Convert temperature between Celsius, Fahrenheit, and Kelvin scales" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"/>
                         </VerticalStackLayout>
@@ -176,9 +185,10 @@
                 </Frame>
 
                 <!-- Energy Category -->
-                <Frame BackgroundColor="#B89DD4" 
+                <Frame BackgroundColor="#7EB5D6" 
                        CornerRadius="25" 
                        Padding="0" 
+                       BorderColor="Transparent" 
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnEnergyTapped"/>
@@ -189,12 +199,13 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Energy" 
-                                   FontSize="28" 
+                                   FontSize="20" 
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"
                                    HorizontalTextAlignment="End"/>
                             <Label Text="Convert energy units including joules, calories, and watt-hours" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"
                                    HorizontalTextAlignment="End"/>
@@ -209,9 +220,10 @@
                 </Frame>
 
                 <!-- Area Category -->
-                <Frame BackgroundColor="#9B7FBF" 
+                <Frame BackgroundColor="#5BA3D0" 
                        CornerRadius="25" 
                        Padding="0" 
+                        BorderColor="Transparent"
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnAreaTapped"/>
@@ -228,11 +240,12 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Area" 
-                                   FontSize="28" 
+                                   FontSize="20" 
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"/>
                             <Label Text="Convert surface area measurements from square meters to acres" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"/>
                         </VerticalStackLayout>
@@ -240,9 +253,10 @@
                 </Frame>
 
                 <!-- Speed Category -->
-                <Frame BackgroundColor="#B89DD4" 
+                <Frame BackgroundColor="#7EB5D6" 
                        CornerRadius="25" 
                        Padding="0" 
+                        BorderColor="Transparent"
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnSpeedTapped"/>
@@ -253,12 +267,13 @@
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Speed" 
-                                   FontSize="28" 
+                                   FontSize="20"
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"
                                    HorizontalTextAlignment="End"/>
                             <Label Text="Convert velocity measurements between different speed units" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"
                                    HorizontalTextAlignment="End"/>
@@ -273,9 +288,10 @@
                 </Frame>
 
                 <!-- Duration Category -->
-                <Frame BackgroundColor="#9B7FBF" 
+                <Frame BackgroundColor="#5BA3D0" 
                        CornerRadius="25" 
                        Padding="0" 
+                       BorderColor="Transparent" 
                        HasShadow="True">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnDurationTapped"/>
@@ -286,17 +302,19 @@
                                Source="duration.png" 
                                HeightRequest="100" 
                                WidthRequest="100"
-                               Margin="0,0,15,0"/>
+                               Margin="0,0,15,0"
+                               />
 
                         <VerticalStackLayout Grid.Column="1" 
                                            VerticalOptions="Center"
                                            Spacing="5">
                             <Label Text="Duration" 
-                                   FontSize="28" 
+                                   FontSize="20" 
+                                   FontFamily="Lilitaone"
                                    FontAttributes="Bold" 
                                    TextColor="White"/>
                             <Label Text="Convert time measurements from milliseconds to years" 
-                                   FontSize="14" 
+                                   FontSize="10" 
                                    TextColor="White" 
                                    LineBreakMode="WordWrap"/>
                         </VerticalStackLayout>
