@@ -1,4 +1,8 @@
-﻿namespace MAUIVerter
+﻿// MAUIVerter/App.xaml.cs
+
+using MAUIVerter.Views; // <-- ADD THIS LINE
+
+namespace MAUIVerter
 {
     public partial class App : Application
     {
@@ -6,7 +10,8 @@
         {
             InitializeComponent();
 
-            MainPage = new FirstPage();
+           
+            MainPage = new NavigationPage(new FirstPage());
         }
     }
 }

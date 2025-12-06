@@ -9,6 +9,6 @@ public partial class FirstPage : ContentPage
 
     private void Start_Clicked(object sender, EventArgs e)
     {
-        Application.Current.MainPage = new MainPage();
+        Application.Current.MainPage = new NavigationPage(new MainPage());
     }
 }
