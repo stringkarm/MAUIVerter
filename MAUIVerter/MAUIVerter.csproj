@@ -64,6 +64,7 @@
 	  <None Remove="Resources\Images\firstbackground.png" />
 	  <None Remove="Resources\Images\fixedbg.png" />
 	  <None Remove="Resources\Images\informations.png" />
+	  <None Remove="Resources\Images\landingpage.png" />
 	  <None Remove="Resources\Images\length.png" />
 	  <None Remove="Resources\Images\mass.png" />
 	  <None Remove="Resources\Images\mauivertertext.png" />
