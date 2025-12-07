@@ -5,8 +5,8 @@ public partial class Information : ContentPage
     public Information()
     {
         InitializeComponent();
-        FromPicker.SelectedIndex = 0; // Bit
-        ToPicker.SelectedIndex = 1;   // Byte
+        FromPicker.SelectedIndex = 0; 
+        ToPicker.SelectedIndex = 1;  
     }
 
     private void OnInputChanged(object sender, TextChangedEventArgs e)

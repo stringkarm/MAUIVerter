@@ -1,6 +1,4 @@
-﻿// MAUIVerter/App.xaml.cs
-
-using MAUIVerter.Views; // <-- ADD THIS LINE
+﻿using MAUIVerter.Models; 
 
 namespace MAUIVerter
 {
