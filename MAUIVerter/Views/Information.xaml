@@ -6,12 +6,10 @@
 
     <Grid RowDefinitions="Auto,*">
 
-        <!-- Background Image -->
         <Image Source="landingpage.png"
-               Grid.RowSpan="2"
                Aspect="AspectFill"
-               VerticalOptions="FillAndExpand"
-               HorizontalOptions="FillAndExpand"/>
+               VerticalOptions="Fill"      
+               HorizontalOptions="Fill"/>
 
         <!-- Foreground Content -->
         <Grid Grid.RowSpan="2"

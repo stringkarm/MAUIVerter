@@ -8,9 +8,10 @@
         <ImageButton x:Name="Start"
                      Clicked="Start_Clicked"
                      Source="startbutton.png"
+                     BackgroundColor="Transparent"
                      WidthRequest="250"
                      HeightRequest="300"
-                     Margin="0,-40,0,0"
+                     Margin="0,-70,0,0"
                      />
                      
     </VerticalStackLayout>
